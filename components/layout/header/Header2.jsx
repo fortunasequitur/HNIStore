@@ -31,8 +31,8 @@ export default function Header2() {
             <Link href="/" className="header__logo">
               <Image
                 width="167"
-                height="32"
-                src="/img/general/logo-1.svg"
+                height="40"
+                src="/img/general/logosb.png"
                 alt="logo icon"
                 priority
               />

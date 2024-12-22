@@ -47,21 +47,21 @@ export const featuresFour = [
 export const featuresTwo = [
   {
     id: 1,
-    iconSrc: "/img/icons/2/1.svg",
-    value: "240",
+    iconSrc: "/img/icons/2/Loc.png",
+    value: "100+",
     label: "Total Destinations",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/2/2.svg",
+    iconSrc: "/img/icons/2/Cust.png",
     value: "3672",
-    label: "Amazing Tours",
+    label: "Happy Customer",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/2/3.svg",
-    value: "92,842",
-    label: "Happy Customer",
+    iconSrc: "/img/icons/2/Service.png",
+    value: "2021",
+    label: "Melayani Sejak",
   },
 ];
 

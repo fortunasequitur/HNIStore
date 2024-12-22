@@ -15,7 +15,7 @@ export default function PopulerTours() {
               data-aos-delay=""
               className="text-30 md:text-24"
             >
-              Find Popular Tours
+              Paling Sering Dipesan
             </h2>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function PopulerTours() {
                     </div>
 
                     <div>
-                      From <span className="text-16 fw-500">${elm.price}</span>
+                      Mulai Dari <span className="text-16 fw-500">Rp. {elm.price.toLocaleString()}</span>
                     </div>
                   </div>
                 </div>

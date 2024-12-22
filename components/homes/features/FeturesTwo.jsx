@@ -25,15 +25,16 @@ export default function FeturesTwo() {
                 data-aos-delay=""
                 className="text-40 lh-13"
               >
-                We Make
+                Kenapa Harus
                 <br className="md:d-none" />
-                World Travel Easy
+                Memilih Kami?
               </h2>
 
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
-                Traveling under your own power and at your own pace, you'll
-                connect more meaningfully with your destination and have more
-                fun!
+              Sobat Bermain Tour & Travel, biro perjalanan terpercaya di Kota Malang sejak 2021, 
+              menawarkan layanan berkualitas tinggi dengan harga kompetitif. 
+              Kami menyediakan paket tour, sewa kendaraan, dan program MICE, didukung oleh tim profesional yang berpengalaman. 
+              Pilih kami untuk pengalaman perjalanan yang tak terlupakan!
               </p>
               <button
                 data-aos="fade-right"
@@ -41,7 +42,7 @@ export default function FeturesTwo() {
                 className="button -md -dark-1 bg-accent-1 text-white mt-60 md:mt-30"
               >
                 <Link href={"/tour-list-1"}>
-                  Explore Our Tours
+                  Booking Sekarang
                   <i className="icon-arrow-top-right ml-10"></i>
                 </Link>
               </button>

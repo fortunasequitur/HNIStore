@@ -13,7 +13,7 @@ export default function BrandsOne() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Trusted by all the largest travel brands
+              Client Kami
             </h2>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function BrandsOne() {
                 slidesPerView: 4,
               },
               1200: {
-                slidesPerView: 6,
+                slidesPerView: 5,
               },
             }}
           >
@@ -50,7 +50,7 @@ export default function BrandsOne() {
                     width={140}
                     height={90}
                     style={{
-                      height: "30px",
+                      height: "100px",
                       width: "100px",
                       objectFit: "contain",
                     }}

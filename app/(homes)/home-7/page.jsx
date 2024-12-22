@@ -4,7 +4,6 @@ import Banner11 from "@/components/homes/banners/Banner11";
 import TopAttractions from "@/components/homes/destinations/TopAttractions";
 import TrendingDestinations from "@/components/homes/destinations/TrendingDestinations";
 import Hero7 from "@/components/homes/heros/Hero7";
-
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
 import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";

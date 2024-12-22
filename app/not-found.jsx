@@ -4,8 +4,8 @@ import Image from "next/image";
 import React from "react";
 
 export const metadata = {
-  title: "Not found || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "Not found | Sobat Bermain Tour & Travel Bromo",
+  description: "Sobat Bermain Tour & Travel Bromo",
 };
 
 export default function NotFound() {
