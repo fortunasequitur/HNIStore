@@ -1,3 +1,5 @@
+"use client";
+
 import ArticlesOne from "@/components/homes/articles/ArticlesOne";
 import BannerFour from "@/components/homes/banners/BannerFour";
 import BannerTwo from "@/components/homes/banners/BannerTwo";
@@ -14,17 +16,29 @@ import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";
 import FooterTwo from "@/components/layout/footers/FooterTwo";
 import Header2 from "@/components/layout/header/Header2";
-import React from "react";
+import React, { useEffect, useState } from "react"; // Menghapus import React yang menduplikasi
 
-export const metadata = {
-  title: "SB | Bromo Tour & Travel",
-  description: "Sobat Bermain Tour & Travel Bromo",
-  keywords: "Bromo, Tour, Travel, Wisata, Paket Tour, Paket Tour Bromo Desember, Paket Tour Bromo Januari, Paket Tour Bromo Tahun Baru, Trip Bromo Murah Premium, Private Trip Bromo Murah, Jeep Bromo Murah Desember, Jeep Bromo Murah, Open Trip Bromo Murah, Paket Bromo Paling Murah", // {{ edit_1 }} Tambahkan kata kunci untuk SEO
-  author: "Sobat Bermain Tour & Travel Bromo", // {{ edit_2 }} Tambahkan penulis untuk informasi lebih lanjut
-  robots: "index, follow", // {{ edit_3 }} Mengizinkan mesin pencari untuk mengindeks halaman ini
-};
+export default function Page() {
+  const [imagesLoaded, setImagesLoaded] = useState(false);
 
-export default function page() {
+  useEffect(() => {
+    // Lazy loading untuk gambar
+    const images = document.querySelectorAll("img[data-src]");
+    const imgObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          imgObserver.unobserve(img);
+        }
+      });
+    });
+    images.forEach(img => {
+      imgObserver.observe(img);
+    });
+    setImagesLoaded(true);
+  }, []);
+
   return (
     <>
       <main>
@@ -39,6 +53,12 @@ export default function page() {
         <BrandsOne /> {/* Client */}
         <FooterTwo /> {/* Footer */}
       </main>
+      <script>
+        {`
+          // Minifikasi CSS dan JavaScript (gunakan alat build seperti Webpack atau Gulp)
+          // Pastikan untuk mengonfigurasi alat build Anda untuk minifikasi
+        `}
+      </script>
     </>
   );
 }

@@ -78,7 +78,7 @@ export default function PopulerTours() {
                     </div>
 
                     <div>
-                      Mulai Dari <span className="text-16 fw-500">Rp. {elm.price.toLocaleString()}</span>
+                      Mulai Dari <span className="text-16 fw-500">Rp. {elm.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</span>
                     </div>
                   </div>
                 </div>
