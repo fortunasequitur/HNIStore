@@ -28,7 +28,7 @@ export default function PopulerTours() {
           {tourData.slice(0, 4).map((elm, i) => (
             <div key={i} className="col-lg-3 col-md-6">
               <Link
-                href={`/tour-single-1/${elm.id}`}
+                href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya."
                 className="tourCard -type-1 -rounded bg-white hover-shadow-1 overflow-hidden rounded-20 shadow-1 -hover-shadow"
               >
                 <div className="tourCard__header">
@@ -86,6 +86,36 @@ export default function PopulerTours() {
             </div>
           ))}
         </div>
+        <section className="layout-pt-md">
+          <div className="container">
+            <div className="py-20 px-50 rounded-12" style={{ backgroundColor: '#054920' }}>
+              <div className="row y-gap-20 justify-center items-center text-center">
+                <div className="col-auto">
+                  <h2
+                    data-aos="fade-in"
+                    data-aos-delay="200"
+                    className="text-20 fw-500 text-white"
+                  >
+                    Chat Admin SB
+                  </h2>
+                  <div style={{ marginTop: '10px' }}>
+                    <button
+                      data-aos="fade-in"
+                      data-aos-delay="400"
+                      className="button -md text-white"
+                      style={{ backgroundColor: '#25d366' }}
+                    >
+                      <Link href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya." className="d-flex align-items-center justify-center" style={{ padding: '5px 10px', fontSize: '18px', borderRadius: '8px', backgroundColor: '#25d366', color: 'white', textDecoration: 'none' }}>
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp Icon" style={{ marginRight: '8px', width: '20px', height: '20px' }} />
+                        Whatsapp
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   );

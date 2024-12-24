@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Menu from "../components/Menu";
-import Currency from "../components/Currency";
 import MobileMenu from "../components/MobileMenu";
 import Image from "next/image";
 import Link from "next/link";
@@ -55,27 +54,6 @@ export default function Header2() {
             >
               <i className="icon-person text-18"></i>
             </button>
-          </div>
-
-          <div className="header__right xl:d-none">
-            <div className="ml-30">
-              <Currency />
-            </div>
-
-            <Link href="/help-center" className="">
-              Help
-            </Link>
-
-            <Link href="/register" className="ml-30">
-              Sign up
-            </Link>
-
-            <a
-              href="login"
-              className="button -sm -outline-dark-1 rounded-200 text-dark-1 ml-30"
-            >
-              Log in
-            </a>
           </div>
         </div>
       </header>

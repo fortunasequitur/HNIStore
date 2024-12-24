@@ -19,6 +19,9 @@ import React from "react";
 export const metadata = {
   title: "SB | Bromo Tour & Travel",
   description: "Sobat Bermain Tour & Travel Bromo",
+  keywords: "Bromo, Tour, Travel, Wisata, Paket Tour, Paket Tour Bromo Desember, Paket Tour Bromo Januari, Paket Tour Bromo Tahun Baru, Trip Bromo Murah Premium, Private Trip Bromo Murah, Jeep Bromo Murah Desember, Jeep Bromo Murah, Open Trip Bromo Murah, Paket Bromo Paling Murah", // {{ edit_1 }} Tambahkan kata kunci untuk SEO
+  author: "Sobat Bermain Tour & Travel Bromo", // {{ edit_2 }} Tambahkan penulis untuk informasi lebih lanjut
+  robots: "index, follow", // {{ edit_3 }} Mengizinkan mesin pencari untuk mengindeks halaman ini
 };
 
 export default function page() {

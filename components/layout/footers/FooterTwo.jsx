@@ -1,5 +1,4 @@
 import React from "react";
-import Paymentcards from "../components/Paymentcards";
 import FooterLinks from "../components/FooterLinks";
 import Socials from "../components/Socials";
 import Image from "next/image";
@@ -105,12 +104,6 @@ export default function FooterTwo() {
           <div className="row y-gap-5 justify-between items-center">
             <div className="col-auto">
               <div>© Copyright CV. INDO DINAR NUSANTARA {new Date().getFullYear()}</div>
-            </div>
-
-            <div className="col-auto">
-              <div className="footer__images d-flex items-center x-gap-10">
-                <Paymentcards />
-              </div>
             </div>
           </div>
         </div>
