@@ -10,7 +10,7 @@ export default function TopAttractions() {
         <div className="row y-gap-10 justify-between items-end">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Top Attractions
+              Kami Juga Melayani
             </h2>
           </div>
 
@@ -50,7 +50,7 @@ export default function TopAttractions() {
 
                 <div className="ml-30">
                   <h3 className="text-18 fw-500">{elm.title}</h3>
-                  <p className="text-14">{elm.tours}+ Tours</p>
+                  <p className="text-14">Mulai Dari {elm.tours.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</p>
                 </div>
               </Link>
             </div>

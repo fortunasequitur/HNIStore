@@ -25,16 +25,16 @@ export default function page() {
   return (
     <>
       <main>
-        <Header2 />
-        <Hero7 />
-        <PopulerTours />
-        <FeturesTwo />
-        <OfferDestinations />
-        <DestinationsTwo />
-        <BannerTwo />
-        <TopAttractions />
-        <BrandsOne />
-        <FooterTwo />
+        <Header2 /> {/* Header Menu */}
+        <Hero7 /> {/* Hero */}  
+        <PopulerTours /> {/* Paling Sering Dipesan */}
+        <FeturesTwo /> {/* Kenapa Harus Kami */}
+        <OfferDestinations /> {/* Paket Group */}
+        <DestinationsTwo /> {/* Destinasi */}
+        <BannerTwo /> {/* CTWA */}
+        <TopAttractions /> {/* Kami Juga Melayani */}
+        <BrandsOne /> {/* Client */}
+        <FooterTwo /> {/* Footer */}
       </main>
     </>
   );

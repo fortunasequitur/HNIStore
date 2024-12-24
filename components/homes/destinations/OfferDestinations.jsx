@@ -10,7 +10,7 @@ export default function OfferDestinations() {
         <div className="row y-gap-10 justify-between items-end">
           <div className="col-auto">
             <h2 data-aos="fade-up" data-aos-delay="" className="text-30">
-              Best Seller Tour
+              Paket Group
             </h2>
           </div>
 
@@ -18,7 +18,7 @@ export default function OfferDestinations() {
             <Link
               href={"/tour-list-1"}
               data-aos="fade-up"
-              data-aos-delay=""
+              data-aos-delay="" 
               className="buttonArrow d-flex items-center "
             >
               <span>See all</span>

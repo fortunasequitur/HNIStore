@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function FooterTwo() {
   return (
-    <footer className="footer -type-1 -dark bg-dark-1 text-white">
+    <footer className="footer -type-1 -dark" style={{ backgroundColor: '#054920', color: 'white' }}>
       <div className="footer__main">
         <div className="footer__bg">
           <Image
@@ -28,8 +28,14 @@ export default function FooterTwo() {
 
                   <div className="col-auto">
                     <div className="text-20 fw-500">
-                      Speak to our expert at
-                      <span className="">1-800-453-6744</span>
+                      Hubungi Kami 
+                    </div>
+                    <div className="text-20 fw-500">
+                      <span className="">
+                        <a href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya." style={{ color: 'white' }}>
+                          +62-851-6353-7020
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -54,10 +60,10 @@ export default function FooterTwo() {
 
                 <div className="y-gap-10 mt-20">
                   <a className="d-block" href="#">
-                    328 Queensberry Street, North Melbourne VIC3051, Australia.
+                    Permata Savira Regency Blok D No 4, Malang, Jawa Timur.
                   </a>
                   <a className="d-block" href="#">
-                    hi@viatours.com
+                    hello@sobatbermain.id
                   </a>
                 </div>
               </div>
@@ -98,7 +104,7 @@ export default function FooterTwo() {
         <div className="footer__bottom">
           <div className="row y-gap-5 justify-between items-center">
             <div className="col-auto">
-              <div>© Copyright Viatours {new Date().getFullYear()}</div>
+              <div>© Copyright CV. INDO DINAR NUSANTARA {new Date().getFullYear()}</div>
             </div>
 
             <div className="col-auto">
