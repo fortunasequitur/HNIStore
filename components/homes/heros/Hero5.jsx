@@ -4,15 +4,14 @@ import Image from "next/image";
 export default function Hero5() {
   return (
     <section className="hero -type-5">
-      <div className="hero__bg">
+      <div className="hero__bg" style={{ position: 'absolute', width: '100%', height: '100%', top: 0, left: 0, zIndex: -1 }}>
         <Image
-          width={1920}
-          height={760}
-          src="/img/hero/5/bg.png"
+          layout="fill"
+          objectFit="cover"
+          src="/img/hero/5/logo.jpg"
           alt="background"
         />
       </div>
-
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
@@ -22,7 +21,7 @@ export default function Hero5() {
                 data-aos-delay="100"
                 className="hero__subtitle mb-10"
               >
-                Mitra Resmi dari HNI
+                {/* Teks dihapus */}
               </div>
 
               <h1
@@ -30,9 +29,9 @@ export default function Hero5() {
                 data-aos-delay="300"
                 className="hero__title"
               >
-                Selamat Datang di Halal Wellness
+                {/* Teks dihapus */}
                 <br className="md:d-none" />
-                <span className="text-accent-2">Store</span>
+                <span className="text-accent-2"></span>
               </h1>
             </div>
           </div>

@@ -5,13 +5,8 @@ import Menu from "../components/Menu";
 import MobileMenu from "../components/MobileMenu";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-export default function Header2() {
-  const router = useRouter();
-  const pageNavigate = (pageName) => {
-    router.push(pageName);
-  };
 
+export default function Header2() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
@@ -38,15 +33,6 @@ export default function Header2() {
             </Link>
 
             <Menu />
-          </div>
-
-          <div className="headerMobile__right">
-            <button
-              onClick={() => pageNavigate("/login")}
-              className="d-flex ml-20"
-            >
-              <i className="icon-person text-18"></i>
-            </button>
           </div>
         </div>
       </header>
