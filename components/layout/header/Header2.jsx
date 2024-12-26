@@ -31,7 +31,7 @@ export default function Header2() {
               <Image
                 width="167"
                 height="40"
-                src="/img/general/logosb.png"
+                src="/img/general/hni.png"
                 alt="logo icon"
                 priority
               />
@@ -41,13 +41,6 @@ export default function Header2() {
           </div>
 
           <div className="headerMobile__right">
-            <button
-              onClick={() => pageNavigate("/tour-list-1")}
-              className="d-flex"
-            >
-              <i className="icon-search text-18"></i>
-            </button>
-
             <button
               onClick={() => pageNavigate("/login")}
               className="d-flex ml-20"

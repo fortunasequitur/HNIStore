@@ -48,8 +48,8 @@ export const featuresTwo = [
   {
     id: 1,
     iconSrc: "/img/icons/2/Loc.png",
-    value: "100+",
-    label: "Total Destinations",
+    value: "1000+",
+    label: "Produk Terjual",
   },
   {
     id: 2,

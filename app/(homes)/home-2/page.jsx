@@ -10,6 +10,7 @@ import TopAttractions from "@/components/homes/destinations/TopAttractions";
 import FeaturesThree from "@/components/homes/features/FeaturesThree";
 import FeturesTwo from "@/components/homes/features/FeturesTwo";
 import Hero7 from "@/components/homes/heros/Hero7";
+import Hero5 from "@/components/homes/heros/Hero5";
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
 import TourSlider2 from "@/components/homes/tours/TourSlider2";
 import PopulerTours from "@/components/homes/tours/PopulerTours";
@@ -43,14 +44,10 @@ export default function Page() {
     <>
       <main>
         <Header2 /> {/* Header Menu */}
-        <Hero7 /> {/* Hero */}  
+        <Hero5 /> {/* Hero */}  
         <PopulerTours /> {/* Paling Sering Dipesan */}
-        <FeturesTwo /> {/* Kenapa Harus Kami */}
-        <OfferDestinations /> {/* Paket Group */}
-        <DestinationsTwo /> {/* Destinasi */}
         <BannerTwo /> {/* CTWA */}
-        <TopAttractions /> {/* Kami Juga Melayani */}
-        <BrandsOne /> {/* Client */}
+        <FeturesTwo /> {/* Kenapa Harus Kami */}
         <FooterTwo /> {/* Footer */}
       </main>
       <script>

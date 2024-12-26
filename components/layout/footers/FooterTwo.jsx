@@ -31,8 +31,8 @@ export default function FooterTwo() {
                     </div>
                     <div className="text-20 fw-500">
                       <span className="">
-                        <a href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya." style={{ color: 'white' }}>
-                          +62-851-6353-7020
+                        <a href="https://wa.me/6287754061060?text=halo%20admin%20saya%20mau%20order%20produk%20HNI" style={{ color: 'white' }}>
+                          +62-877-5406-1060
                         </a>
                       </span>
                     </div>
@@ -52,50 +52,6 @@ export default function FooterTwo() {
             </div>
           </div>
 
-          <div className="footer__content">
-            <div className="row y-gap-40 justify-between">
-              <div className="col-lg-4 col-md-6">
-                <h4 className="text-20 fw-500">Contact</h4>
-
-                <div className="y-gap-10 mt-20">
-                  <a className="d-block" href="#">
-                    Permata Savira Regency Blok D No 4, Malang, Jawa Timur.
-                  </a>
-                  <a className="d-block" href="#">
-                    hello@sobatbermain.id
-                  </a>
-                </div>
-              </div>
-
-              <FooterLinks />
-
-              <div className="col-lg-3 col-md-6">
-                <h4 className="text-20 fw-500">Newsletter</h4>
-                <p className="mt-20">
-                  Subscribe to the free newsletter and stay up to date
-                </p>
-
-                <div className="footer__newsletter">
-                  <input type="Email" placeholder="Your email address" />
-                  <button>Send</button>
-                </div>
-
-                <h4 className="text-20 fw-500 mt-30">Mobile Apps</h4>
-
-                <div className="mt-10">
-                  <a className="d-flex items-center" href="#">
-                    <i className="icon-apple text-16 mr-10"></i>
-                    iOS App
-                  </a>
-
-                  <a className="d-flex items-center mt-10" href="#">
-                    <i className="icon-android text-16 mr-10"></i>
-                    Android App
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -103,7 +59,7 @@ export default function FooterTwo() {
         <div className="footer__bottom">
           <div className="row y-gap-5 justify-between items-center">
             <div className="col-auto">
-              <div>© Copyright CV. INDO DINAR NUSANTARA {new Date().getFullYear()}</div>
+              <div>© Copyright HALAL WELLNESS STORE {new Date().getFullYear()}</div>
             </div>
           </div>
         </div>

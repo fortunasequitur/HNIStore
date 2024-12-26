@@ -13,7 +13,7 @@ export default function BannerTwo() {
                     data-aos-delay="200"
                     className="text-20 fw-500 text-white"
                   >
-                    Chat Admin SB
+                    Chat Untuk Order
                   </h2>
                   <div style={{ marginTop: '10px' }}>
                     <button
@@ -22,7 +22,7 @@ export default function BannerTwo() {
                       className="button -md text-white"
                       style={{ backgroundColor: '#25d366' }}
                     >
-                      <Link href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya." className="d-flex align-items-center justify-center" style={{ padding: '5px 10px', fontSize: '18px', borderRadius: '8px', backgroundColor: '#25d366', color: 'white', textDecoration: 'none' }}>
+                      <Link href="https://wa.me/6287754061060?text=halo%20admin%20saya%20mau%20order%20produk%20HNI" className="d-flex align-items-center justify-center" style={{ padding: '5px 10px', fontSize: '18px', borderRadius: '8px', backgroundColor: '#25d366', color: 'white', textDecoration: 'none' }}>
                         <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp Icon" style={{ marginRight: '8px', width: '20px', height: '20px' }} />
                         Whatsapp
                       </Link>

@@ -27,42 +27,33 @@ export default function Menu() {
 
           <div className="desktopNav__item">
             <a href="#">
-              Paket Tour <i className="icon-chevron-down"></i>
+              Produk <i className="icon-chevron-down"></i>
             </a>
 
             <div className="desktopNavSubnav">
               <div className="desktopNavSubnav__content">
                 <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/open-trip-bromo">Open Trip Bromo</Link>
+                  <Link href="/kosmetik-home-care">Kosmetik & Home Care</Link>
                 </div>
                 <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/private-trip-bromo">Private Trip Bromo</Link>
+                  <Link href="/makanan-minuman-sehat">Makanan & Minuman Sehat</Link>
                 </div>
                 <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/2d1n-bromo-tour">2D1N Bromo Tour</Link>
+                  <Link href="/produk-herba">Produk Herba</Link>
                 </div>
                 <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/3d2n-bromo-tour">3D2N Bromo Tour</Link>
-                </div>
-                <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/4d3n-bromo-tour">4D3N Bromo Tour</Link>
-                </div>
-                <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/city-tour-malang-batu">City Tour Malang Batu</Link>
-                </div>
-                <div className="desktopNavSubnav__item text-dark-1">
-                  <Link href="/beach-tour-malang">Beach Tour Malang</Link>
+                  <Link href="/fashion-lifestyle">Fashion & Lifestyle</Link>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="desktopNav__item">
-            <a href="#">Activities</a>
+            <a href="#">Tentang Kami</a>
           </div>
 
           <div className="desktopNav__item">
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Order</Link>
           </div>
         </div>
       </div>

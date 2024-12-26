@@ -25,24 +25,20 @@ export default function FeturesTwo() {
                 data-aos-delay=""
                 className="text-40 lh-13"
               >
-                Kenapa Harus
-                <br className="md:d-none" />
-                Memilih Kami?
+                Tentang Kami
               </h2>
 
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
-              Sobat Bermain Tour & Travel, biro perjalanan terpercaya di Kota Malang sejak 2021, 
-              menawarkan layanan berkualitas tinggi dengan harga kompetitif. 
-              Kami menyediakan paket tour, sewa kendaraan, dan program MICE, didukung oleh tim profesional yang berpengalaman. 
-              Pilih kami untuk pengalaman perjalanan yang tak terlupakan!
+              Halal Wellness Store adalah situs pembelian produk HNI secara online. Dapatkan semua produk HNI halal dan berkualitas mulai dari produk herbal, kosmetik & homecare serta makanan & minuman sehat di Halal Wellness Store. HNI turut serta dalam memberdayakan dan mengangkat UMKM nasional.
+              Dengan komitmen untuk memberikan yang terbaik, kami hadir untuk memenuhi kebutuhan anda berbelanja produk HNI secara online dengan aman, nyaman dan pasti terpercaya. 
               </p>
               <button
                 data-aos="fade-right"
                 data-aos-delay=""
                 className="button -md -dark-1 bg-accent-1 text-white mt-60 md:mt-30"
               >
-                <Link href="https://wa.me/6285163537020?text=halo%20admin%20saya%20ingin%20booking%20tour%2C%20mohon%20informasinya.">
-                  Booking Sekarang
+                <Link href="https://wa.me/6287754061060?text=halo%20admin%20saya%20mau%20order%20produk%20HNI">
+                  Beli Sekarang
                   <i className="icon-arrow-top-right ml-10"></i>
                 </Link>
               </button>
